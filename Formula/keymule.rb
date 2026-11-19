@@ -1,25 +1,25 @@
 class Keymule < Formula
   desc "Let AI coding agents use your API tokens and passwords without ever seeing them"
   homepage "https://github.com/Rorogogogo/keymule"
-  version "0.18.0"
+  version "0.19.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/Rorogogogo/keymule/releases/download/v0.18.0/keymule-aarch64-apple-darwin.tar.xz"
-      sha256 "8135f78459a263df819bfc85ec220bbdfdbbe8f0fb95f6f95e2f6de848e3f5a2"
+      url "https://github.com/Rorogogogo/keymule/releases/download/v0.19.0/keymule-aarch64-apple-darwin.tar.xz"
+      sha256 "94c8e9b12697adb7d14dea69b55807b54faf8fce23548f1251291fefc456def4"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Rorogogogo/keymule/releases/download/v0.18.0/keymule-x86_64-apple-darwin.tar.xz"
-      sha256 "9de2b7980f67e7cde7c7f8316da4863e75bb87bd013dc971c88406a071932c46"
+      url "https://github.com/Rorogogogo/keymule/releases/download/v0.19.0/keymule-x86_64-apple-darwin.tar.xz"
+      sha256 "dfb697ec8a6e0b082ed5d6129aa0122557126960a3814025700770e868aa344c"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/Rorogogogo/keymule/releases/download/v0.18.0/keymule-aarch64-unknown-linux-musl.tar.xz"
-      sha256 "7eeead5b0d7460239007b0590b46d4e265cb4f64a05e10c21c479256a1f47100"
+      url "https://github.com/Rorogogogo/keymule/releases/download/v0.19.0/keymule-aarch64-unknown-linux-musl.tar.xz"
+      sha256 "40e7b1cebc9db92d74f4c02349ab747ddc876f149809fdeaea59d0d51a986267"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Rorogogogo/keymule/releases/download/v0.18.0/keymule-x86_64-unknown-linux-musl.tar.xz"
-      sha256 "5920c0445eb88055fe993a2e885286953ce8a1b002b8b9ae07551fac80224bd9"
+      url "https://github.com/Rorogogogo/keymule/releases/download/v0.19.0/keymule-x86_64-unknown-linux-musl.tar.xz"
+      sha256 "efd6dcb643d08c94db2b65c9959e2b445dd1a1ec744b22d23cf8ad51ef7df4aa"
     end
   end
   license any_of: ["MIT", "Apache-2.0"]
